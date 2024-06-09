@@ -1,0 +1,74 @@
+.best-selling{
+    &__title{
+        text-align: center;
+        font-size: 64px;
+        line-height: 70px;
+    }
+    &__text{
+        max-width: 604px;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 24px;
+        margin: 0 auto;
+    }
+    &__items{
+        display: flex;
+        margin-left: 100px;
+        gap: 30px;
+        &_cards{
+            width: 393px;
+            height: 471px;
+            border-radius: 24px;
+            background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0));
+            box-shadow: 0px 30px 60px rgba(163, 168, 178, 0.15);
+            margin-top: 134px;
+            &-img{
+                transform: translateY(-80px);
+            }
+            &-rate{
+                position: absolute;
+                padding: 41px 16px;
+                font-size: 20px;
+                font-weight: 500;
+                color: #64646A;
+            }
+            &-title{
+                position: absolute;
+                padding-top: 77px;
+                padding-left: 16px;
+                max-width: 161px;
+                font-size: 40px;
+                line-height: 44px;
+                color: #1B1B1D;
+            }
+            &-text{
+                transform: translateY(-40px);
+                padding-left: 30px;
+                padding-right: 31px;
+                font-size: 20px;
+                color: #64646A;
+            }
+            &-price{
+                padding-left: 30px;
+                font-size: 30px;
+                font-weight: 500;
+                color: #1B1B1D;
+            }
+            &-btn{
+                width: 171px;
+                height: 60px;
+                border-radius: 126px;
+                border: none;
+                outline: none;
+                background-color: #1B1B1D;
+                color: #fff;
+                margin-left: 63px;
+            }
+            &-btn:hover{
+                color: #1B1B1D;
+                border: 2px dotted #1B1B1D;
+                background-color: #fff;
+            }
+        }
+    }
+}

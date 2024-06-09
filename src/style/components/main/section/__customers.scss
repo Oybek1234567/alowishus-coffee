@@ -1,0 +1,90 @@
+.customers {
+    display: flex;
+    &__items {
+        display: flex;
+        &_card {
+            width: 468px;
+            height: 648px;
+            border-radius: 16px;
+            box-shadow: 0px 20px 60px rgba(163, 168, 178, 0.15);
+            margin-top: 40px;
+            &_name {
+                font-weight: 600;
+                font-size: 24px;
+                margin-left: 40px;
+                padding-top: 40px;
+            }
+            &_stars {
+                position: absolute;
+                margin-left: 200px;
+                transform: translateY(-30px);
+            }
+            &_text {
+                margin-top: 32px;
+                padding-left: 40px;
+                padding-right: 41px;
+                font-size: 20px;
+                color: #1b1b1d;
+            }
+        }
+    }
+    &__title{
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 64px;
+        line-height: 70px;
+    }
+    &__rate{
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    &__stars{
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    &__base{
+        font-size: 20px;
+        color: #64646A;
+        margin-left: 205px;
+    }
+    &__btn{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+        border: none;
+        outline: none;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    &__btn:hover{
+        transform: skew(10deg);
+    }
+    &__btn_two{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+        border: none;
+        outline: none;
+        margin-top: 100px;
+        margin-left: 24px;
+    }
+    &__btn_two:hover{
+        transform: skew(-10deg);
+    }
+    &__item{
+        position: absolute;
+        margin-top:-350px;
+        &_two{
+            position: absolute;
+            margin-left: 1163px;
+            margin-top: 350px;
+        }   
+    }
+}
